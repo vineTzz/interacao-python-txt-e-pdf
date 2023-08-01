@@ -1,7 +1,7 @@
 # Abrir arquivo #
 alunos = open(r'C:\Users\alxia\OneDrive\Área de Trabalho\github\Integração python + txt e pdf\alunos.txt', 'r')
 
-# Transformar arquivo em Dicionario #
+# Transformar arquivo em Lista #
 linhas = alunos.readlines()
 del linhas [:4]
 
